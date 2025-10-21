@@ -43,7 +43,20 @@ g = "BY"
 # print(f * g)
 
 
-al = True  # 1
-af = False # 0
+# al = True  # 1
+# af = False # 0
 
-print(al + af)  # 0 + 1 = 1
+# print(al + af)  # 0 + 1 = 1
+
+# (-)
+x = 69
+y = 90
+
+# print(x - y)
+
+# (/)
+# print(x / y)
+
+# (*)
+print(x * y)
+
