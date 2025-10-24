@@ -1,0 +1,22 @@
+# if else statment
+x = int( input("Enter a number: "))   
+y = int (input("Enter a number: "))
+operation = input("Enter an operation (+, -, *, /): ")
+if operation == '+':
+    result = float(x) + float(y)
+    print("The sum is:", result)    
+elif operation == '-':
+    result = float(x) - float(y)
+    print("The difference is:", result)
+elif operation == '*':  
+    result = float(x) * float(y)
+    print("The product is:", result)
+elif operation == '/':
+    if float(y) != 0:
+        result = float(x) / float(y)
+        print("The quotient is:", result)
+    else:
+        print("Error: Division by zero is not allowed.")    
+else:
+    print("Invalid operation selected.") 
+
